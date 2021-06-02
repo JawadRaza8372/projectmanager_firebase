@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+font-family: 'Hind', sans-serif;
+  background: radial-gradient(
+    ellipse at left bottom,
+
+    rgba(38, 20, 72, 0.9) 59%,rgba(17, 27, 75, 0.9) 100%
+    
+  ),no-repeat;
+  background-position: center;
+}
+.header_img{
+  text-align: right;
+  padding: 5px;
+}
+a{
+  text-decoration:none !important;
+}
+
+
+
+
+
+
+.animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{
+    transform:translateY(10px)
+  }
+  100%{
+    transform:translateY(-10px)
+  }
+}
+@keyframes up-down{
+  0%{
+    transform:translateY(10px)
+  }
+  100%{
+    transform:translateY(-10px)
+  }
+}
+.color{
+  color:rgb(0, 238, 40) !important;
+  font-weight: bold;
+}
+.brandname:hover{
+  font-weight: bold;
+  font-size: 22px;
+color:white;
+}
+.pink-text{
+color:rgb(255, 125, 125);
+}
+.bttn1{
+  width:180px !important;
+  height:160px !important;
+  border:rgb(255, 253, 253) solid 2px;
+  text-align: center;
+}
+.btnn{
+  border:none;
+  color:white !important;
+  background-color: transparent !important;
+}
+
+code {
+font-family: 'Hind', sans-serif;}
+.nav-link{
+  color:white;
+  margin-left: 5px;
+  font-family: 'Hind', sans-serif;}
+
+  .nav-link:hover{
+  background-color: rgb(109, 158, 223);
+  color:white;
+  }
+  .active_class{
+  background-color: rgb(109, 158, 223)!important;
+    color:white !important;
+    border-bottom: white solid 3px  !important;
+    font-family: 'Hind', sans-serif;    
+    box-shadow: none;
+  }
+  .brand_name{
+    color:#0d6efd;
+  }
+  .active_class1{
+    background-color: rgb(219, 141, 105)!important;
+      color:white !important;
+      border: white solid 3px  !important;
+      font-family: 'Hind', sans-serif;
+      box-shadow: none;
+    }
+
+
+.hd{
+  color: black;
+    font-size: 90px;
+    text-align: center;
+  font-family: 'Hind', sans-serif;
+      text-transform: capitalize;
+    /* text-shadow:2px 0 0 #FFFFFF, 0 -1px 0 #FFFFFF, 0 1px 0 #FFFFFF, -1px 0 0#FFFFFF; */
+  }
+  .btnmanu{
+    color:white !important;
+    padding: 5px 3px;
+    text-align: center;
+    border: 1px solid black; 
+  font-family: 'Hind', sans-serif;
+      margin-left: 1rem;
+    }
+    .btnmanu:hover{
+    background-color: rgb(176, 215, 247);
+    font-size: 75%;
+    }
+    .active_class{
+      text-decoration: solid underline;
+      font-size: 75%;
+      background-color: rgb(111, 185, 255);  
+      font-family: 'Hind', sans-serif;   
+    }
+    .blacksimpletxt{
+      color: black;
+      font-size: auto;
+      font-family: 'Hind', sans-serif !important;
+          text-transform: capitalize;
+      margin: auto;
+      /* text-shadow:2px 0 0 #FFFFFF, 0 -1px 0 #FFFFFF, 0 1px 0 #FFFFFF, -1px 0 0#FFFFFF; */
+    }
+    .flip-card {
+      background-color: transparent;
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+    }
+    
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+      background-color: rgb(255, 255, 255);
+      color: black;
+    }
+  
+    .flip-card-back {
+      background-color: #2980b9;
+      color: white;
+      transform: rotateY(180deg);
+    }
+    .card{
+      overflow:hidden;
+      margin:12px;
+      transition:all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+      font-family: 'Hind', sans-serif !important;
+        }
+    .card:hover{
+      box-shadow: 0px 30px 12px -8px rgba(0, 0, 0, 0.2) !important;
+      transform: scale(1.05,1.05) !important;
+      text-decoration: none !important;
+  }
+    .bttn{
+      width:120px;
+       font-family: 'Hind', sans-serif;
+    }
+    .bttn:hover{
+background-color: #0d6efd !important;
+color: white !important;
+    }
+    .bttn22:hover{
+      background-color: #0d6efd !important;
+      color: white !important;
+          }
+    .bton{
+      background-color: thistle;
+      font-size: medium;
+    font-family: 'Hind', sans-serif;  
+        text-shadow:2px 0 0 #000000, 0 -1px 0#000000, 0 1px 0#000000, -1px 0 #000000;
+    }
+    .greytxt{
+      color: rgb(100, 96, 96);
+      font-size: auto;
+    font-family: 'Hind', sans-serif;  
+        text-transform: capitalize;
+      text-decoration: solid;
+      margin: auto;
+      /* text-shadow:2px 0 0 #FFFFFF, 0 -1px 0 #FFFFFF, 0 1px 0 #FFFFFF, -1px 0 0#FFFFFF; */
+    }
+    .whitesimpletxt{
+      color:white;
+      font-size: auto;
+    font-family: 'Hind', sans-serif;   
+       text-transform: capitalize;
+      margin: auto;
+      /* text-shadow:2px 0 0 #FFFFFF, 0 -1px 0 #FFFFFF, 0 1px 0 #FFFFFF, -1px 0 0#FFFFFF; */
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .button {
+      border: none;
+      outline: none;
+      width: 100%;
+      padding: 15px 0;
+    font-family: 'Hind', sans-serif;      color: #fff;
+      font-size: 16px;
+      letter-spacing: 1px;
+      background: #603bbb;
+      cursor: pointer;
+    }
+    
+    form{
+      padding: 20px;
+      margin-top: 60px;
+      border: white solid 1px;
+      border-radius: 25px;
+    font-family: 'Hind', sans-serif;
+    transition:all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+    form:hover{
+      box-shadow: 0px 30px 12px -8px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05,1.05);
+    font-family: 'Hind', sans-serif;    }
+    label{
+      color:white;
+      margin:5px;
+    font-family: 'Hind', sans-serif;    }
+    form button {
+      margin:20px 0;
+    font-family: 'Hind', sans-serif;    }
+    input[type="text"]:not(.browser-default):focus:not([readonly]),
+    input[type="email"]:not(.browser-default):focus:not([readonly]),
+    input[type="password"]:not(.browser-default):focus:not([readonly]),
+    textarea:not(.browser-default):focus:not([readonly]){
+border-color:#0d6efd;
+box-shadow: none;
+font-family: 'Hind', sans-serif;
+    }
